@@ -1,17 +1,19 @@
+/** @format */
+
 export interface Power {
-    id: number;
-    desc: string;
+	id: number;
+	desc: string;
 }
 
 const powers: Power[] = [
-    {
-        id: 1,
-        desc: 'Money'
-    },
-    {
-        id: 2,
-        desc: 'Drugs'
-    },
+	{
+		id: 1,
+		desc: 'Money',
+	},
+	{
+		id: 2,
+		desc: 'Drugs',
+	},
 ];
 
 export default powers;
